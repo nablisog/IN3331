@@ -1,0 +1,10 @@
+"class\s": class
+"//.*(?:$|\n)": comment
+"(?<!(\"))(\")(?!(\")).*(\")": string
+"int\s|double\s|char\s|float\s|long\s|boolean\s|String\s|void\s|\sScanner\s|static\s": variable_types
+"private|public|protected|abstract": security
+"import\s": import
+"true|false": bool
+"for|while|do": loop
+"if\s|elseif\s|else": if
+"!=\s|==\s|<|>": assig

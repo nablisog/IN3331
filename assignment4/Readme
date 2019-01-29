@@ -1,0 +1,20 @@
+4.1    This is a pure Python script which chooses some rectangle in the complex plane, colors that rectangle according
+       to the Mandelbrot method, and saves the coloring as an image.
+       
+4.2    Its the same program as 4.1 except to make the program faster, numpy is used from python module
+
+4.3    Its the same program as 4.1 except to make the program much faster, numba is used from python module
+
+4.5    This program provide a command line user interface for the scrips that is make in 4.1, 4.2 and 4.3 .
+      It provides instructions for its by calling it with a --help
+      
+4.6   This is a simple setup script for the package that was created. The package is called mypackage and it 
+      includes a method called mandelbrotcompute.py. when checking if the set is doing what it was supposed
+      to do, one has to test it by typing  setup.py bulid
+      
+      This program has also a unit test where it tests when the given region are outside and inside of the
+      Mandelbrot set region after 0 iterations. pytest is used in this
+      program so inorder to see if the program passes or fails one has to type pytest test_mandelbrot.py -v
+      
+  
+       

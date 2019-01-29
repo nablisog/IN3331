@@ -1,0 +1,12 @@
+"class\s": class
+"(#).*": comment
+"for": for
+"def\s": def
+"(?<!(\"))(\")(?!(\")).*(\")": string
+"from\s|import\s": import
+"True|False|None": boolean
+"try|except": exception
+"if|elif|else": if
+"print|in|return|range|len|strip|split|and|not": high
+"while": while
+"!=|==|>|<|>=|<=": assign
