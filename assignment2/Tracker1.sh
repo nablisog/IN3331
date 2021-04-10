@@ -15,7 +15,6 @@ if [ $1 == "start" ]; then
     if [ $input == "stop" ]; then
       stop=$(date +"%s")
       echo $stop
-
       elapsed="$(($stop-$start))"
       #echo $elapsed
       echo " $((elapsed/60))h $((elapsed/60))m $((elapsed%60))s"
