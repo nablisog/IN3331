@@ -9,10 +9,12 @@ abstract class demo
       int i, 
       long c, length;
       float d;
-      while(true)  
-      Scanner in = new Scanner(System.in);
-      System.out.println("Enter a string ");
-      string  = in.nextLine();
+      while(true){
+      	Scanner in = new Scanner(System.in);
+      	System.out.println("Enter a string ");
+      	string  = in.nextLine();    
+      }
+
       
       char = string.length();  
        if (false)
